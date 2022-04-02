@@ -6,9 +6,9 @@ result=requests.get("https://www.google.co.in/")
 print(result.status_code)
 #my part including if statement
 if(result.status_code==200):
-    print("page is accesable")
+    print("Page is Accessable")
 else:
-    print("Acess denied")
+    print("Access denied")
 #printing the header of the google homepage
 #print(result.headers)
 #printing the source code of the google homepage
